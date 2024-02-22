@@ -75,6 +75,3 @@ class TestBooksCollector:
         three_books.add_book_in_favorites('Кристина')
         three_books.add_book_in_favorites('10 негритят')
         assert three_books.favorites[0] == 'Кристина' and three_books.favorites[1] == '10 негритят'
-
-    # напиши свои тесты ниже
-    # чтобы тесты были независимыми в каждом из них создавай отдельный экземпляр класса BooksCollector()
