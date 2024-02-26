@@ -34,11 +34,6 @@ def favorite_books():
     favorite_books.add_new_book('Кристина')
     favorite_books.add_new_book('Сияние')
     favorite_books.add_new_book('10 негритят')
-    # устанавливаем жанр книг
-    favorite_books.set_book_genre('Чебурашка', 'Мультфильмы')
-    favorite_books.set_book_genre('Кристина', 'Ужасы')
-    favorite_books.set_book_genre('Сияние', 'Ужасы')
-    favorite_books.set_book_genre('10 негритят', 'Детективы')
     favorite_books.add_book_in_favorites('Чебурашка')
     favorite_books.add_book_in_favorites('Кристина')
     favorite_books.add_book_in_favorites('Сияние')
